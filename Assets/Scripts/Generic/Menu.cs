@@ -17,6 +17,14 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("FASE1");
     }
+    public void CarregarPLAYGROUND()
+    {
+        SceneManager.LoadScene("PLAYGROUND");
+    }
+    public void CarregarTESTE()
+    {
+        SceneManager.LoadScene("TESTE");
+    }
     public void VoltaMenu()
     {
         SceneManager.LoadScene("Menu");

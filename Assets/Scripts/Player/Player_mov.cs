@@ -47,7 +47,7 @@ public class Player_mov : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(transform.position, Vector3.down, out hit, 0.2f))
         {
-            if (hit.transform.CompareTag("Chao"))
+            if (hit.transform.CompareTag("chao"))
             {
                 Jump = false;
             }
@@ -71,10 +71,10 @@ public class Player_mov : MonoBehaviour
             transform.LookAt(direcaoParaOlhar);
         }
 
-        //movimentação com animação d emovimento
+        //movimentação com animação de movimento
         rigidbody.velocity = new Vector3(vel.x, rigidbody.velocity.y, vel.z);
 
-        anim.SetBool("movimento", vel.magnitude > 0.1);
+        anim.SetBool("Correndo", vel.magnitude > 0.1);
 
 
         //setando as animaçãoes do player
@@ -85,7 +85,7 @@ public class Player_mov : MonoBehaviour
             Jump = true;
 
             Pulo();
-            anim.SetTrigger("pulo");
+            anim.SetTrigger("Pulando");
         } 
         /*if(Jump &&(!joybutton.Pressed || Input.GetButtonDown("Fire2")))
         {
@@ -111,7 +111,7 @@ public class Player_mov : MonoBehaviour
 
     public void Ataque()
     {
-        anim.SetTrigger("ataque");
+        anim.SetTrigger("Ataque1");
         //Detectar os inimigos no alcance
         Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayers);
         //Ataca-los

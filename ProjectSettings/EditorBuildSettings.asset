@@ -7,17 +7,23 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
-    guid: 1a02010acbd71154e997058116084104
-  - enabled: 1
-    path: Assets/Scenes/OPCOES.unity
-    guid: 1a96b1eaee46fd74a8301a3ca4aaaf24
-  - enabled: 1
-    path: Assets/Scenes/Creditos.unity
-    guid: 556b16e154aba2d458658f5b1cd0de3b
+    guid: c395d2f95b9529640894ab3841b48d55
   - enabled: 1
     path: Assets/Scenes/FASE1.unity
-    guid: 297e1eacaf17f31419fe30884d935b1a
+    guid: 83379246e1d3d9745a9be43dddbe737e
   - enabled: 1
     path: Assets/Scenes/FASE2.unity
-    guid: 84eaf861417d8c045a8c8019baa76550
+    guid: f54e1ebb38ce3e84998533384f224de7
+  - enabled: 1
+    path: Assets/Scenes/OPCOES.unity
+    guid: fca2e46ec74006a48ab4f6b08bce9c12
+  - enabled: 1
+    path: Assets/Scenes/PLAYGROUND.unity
+    guid: a710748c91f84f348965bc1c0eb650df
+  - enabled: 1
+    path: Assets/Scenes/TESTE.unity
+    guid: bc8eebc34ba858441b28756090e73782
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 9290ec0920ee0464883494a09b0a24ea
   m_configObjects: {}
