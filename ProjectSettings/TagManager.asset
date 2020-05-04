@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Chao
   - chao
   layers:
   - Default
@@ -16,7 +15,7 @@ TagManager:
   - 
   - 
   - chao
-  - enemy
+  - inimigo
   - minimapa
   - 
   - 

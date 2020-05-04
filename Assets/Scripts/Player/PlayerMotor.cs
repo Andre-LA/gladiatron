@@ -9,9 +9,6 @@ public class PlayerMotor : MonoBehaviour
     public float velocidade = 20.0f; //informa a velocidade de movimentação em numeros reais
     private Vector3 pos;// criamos a pos para andar nos eixos x y z
 
-   
-
-
 	void Start()
 	{
 		
@@ -19,16 +16,11 @@ public class PlayerMotor : MonoBehaviour
 
 	void Update()
 	{
-        
-        
-
-
-   
-            //aqui usamos o transfom para andar como menino(não é a classe)
-            pos = transform.position;
-        pos.x += velocidade * Input.GetAxis("Horizontal") * Time.deltaTime;
-        pos.z += velocidade * Input.GetAxis("Vertical") * Time.deltaTime;
-        transform.position = pos;
+     //aqui usamos o transfom para andar como menino(não é a classe)
+     pos = transform.position;
+     pos.x += velocidade * Input.GetAxis("Horizontal") * Time.deltaTime;
+     pos.z += velocidade * Input.GetAxis("Vertical") * Time.deltaTime;
+     transform.position = pos;
 
 	}
 
