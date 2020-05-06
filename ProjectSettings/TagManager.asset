@@ -4,7 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - chao
+  - Chao
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -14,14 +15,14 @@ TagManager:
   - UI
   - 
   - 
-  - chao
-  - inimigo
+  - 
+  - 
+  - 
+  - 
+  - 
   - minimapa
-  - 
-  - 
-  - 
-  - 
-  - 
+  - player
+  - enemy
   - 
   - 
   - 
