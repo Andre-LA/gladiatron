@@ -17,8 +17,9 @@ public class Player_mov : MonoBehaviour
     public float VelMax = 200;
     Animator anim;//chama as animações
     Rigidbody rigidbody;
+
     protected bool Jump;
-    private float JumpTime;//limitando o pulo do Tigas
+    private float JumpTime;//limitando o pulo do Player
     public Transform chaoVerificador;
     public Transform attackPoint; //ponto do ataque apartir da arma do personagem
     public LayerMask enemyLayers;
@@ -50,6 +51,9 @@ public class Player_mov : MonoBehaviour
             if (hit.transform.CompareTag("chao"))
             {
                 Jump = false;
+                anim.SetBool("Caindo", false);
+                anim.SetBool("Pulando", false);
+                anim.SetBool("Parado", true);
             }
         }
 
@@ -111,7 +115,7 @@ public class Player_mov : MonoBehaviour
 
     public void Ataque()
     {
-        anim.SetTrigger("Ataque1");
+        anim.SetTrigger("Ataque01");
         //Detectar os inimigos no alcance
         Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayers);
         //Ataca-los

@@ -7,6 +7,9 @@ public class Enemy : MonoBehaviour
 
     public int maxHealth = 100;
     int currentHealth;
+    Animator Enemy_anim;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +23,7 @@ public class Enemy : MonoBehaviour
         if(currentHealth <= 0)
         {
             Die();
+            Enemy_anim.SetBool("EMorrendo", true);
         }
 
     }
@@ -27,6 +31,7 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         Debug.Log("Enemy Died");
+         
     }
 
 }
