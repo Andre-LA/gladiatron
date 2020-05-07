@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: c395d2f95b9529640894ab3841b48d55
   - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 9290ec0920ee0464883494a09b0a24ea
+  - enabled: 1
     path: Assets/Scenes/FASE1.unity
     guid: 83379246e1d3d9745a9be43dddbe737e
   - enabled: 1
@@ -18,12 +21,15 @@ EditorBuildSettings:
     path: Assets/Scenes/OPCOES.unity
     guid: fca2e46ec74006a48ab4f6b08bce9c12
   - enabled: 1
-    path: Assets/Scenes/PLAYGROUND.unity
-    guid: a710748c91f84f348965bc1c0eb650df
+    path: Assets/Scenes/PLAYGROUND1.unity
+    guid: d6c5cb0baa6a0ff4faa7763c8fd60f7e
   - enabled: 1
-    path: Assets/Scenes/TESTE.unity
-    guid: bc8eebc34ba858441b28756090e73782
+    path: Assets/Scenes/PLAYGROUND2.unity
+    guid: 85df8f7d7b896c341a4c6cf074b3b505
   - enabled: 1
-    path: Assets/Scenes/Creditos.unity
-    guid: 9290ec0920ee0464883494a09b0a24ea
+    path: Assets/Scenes/PLAYGROUND3.unity
+    guid: d4e0d54903424cc4f83f864c542514fa
+  - enabled: 1
+    path: Assets/Scenes/PLAYGROUND4.unity
+    guid: b3506a771ebf6204e93e2be5024f1507
   m_configObjects: {}
